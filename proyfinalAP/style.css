@@ -1,0 +1,143 @@
+h1 {
+    color: brown;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.foto-perfil {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    float: right;
+    width: 30%; 
+    height: 100%;
+  }
+  
+  .foto-perfil img {
+    width: 100%;
+    height: auto;
+    border-radius: 80%;
+    margin-bottom: 100px;
+  }
+
+  body {
+    font-family: 'Cormorant', serif;
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  header {
+    background: #cfae51; 
+    background: -webkit-linear-gradient(to right, #cfae51, #da8256); 
+    background: linear-gradient(to right, #cfae51, #da8256); 
+    color: hsl(22, 66%, 41%);
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: hsl(22, 66%, 41%);
+    text-decoration: none;
+  }
+  
+  .card {
+    background-color: #c4bebe;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  h2 {
+    margin-top: 5px;
+  }
+  
+  section {
+    margin-bottom: 130px;
+  }
+
+  .skill-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skill-name {
+    display: inline-block;
+    width: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-bar {
+    background-color: #ddd;
+    height: 10px;
+    margin-top: 5px;
+  }
+  
+  .skill-level {
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-level-1 {
+    background-color: #c9701e;
+    width: 20%;
+  }
+  
+  .skill-level-2 {
+    background-color: #d4a41f;
+    width: 40%;
+  }
+  
+  .skill-level-3 {
+    background-color: #a8b81d;
+    width: 60%;
+  }
+  
+  .skill-level-4 {
+    background-color: #70b81f;
+    width: 80%;
+  }
+  
+  .skill-level-5 {
+    background-color: #376e13;
+    width: 100%;
+  }
+  
+  .nivelenletras {
+  width: 30%;
+  float: center;
+  }
+
+  #btnDesplegar {
+    background-color: #ce9040;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #listaDesplegable {
+    background-color: #f3dcc7;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 25px;
+  }
+  
+  i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
